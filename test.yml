@@ -1,0 +1,10 @@
+---
+- hosts: all
+  roles:
+    - role: '{{ playbook_dir }}'
+  tasks:
+    - command: kp version
+      register: kp_test_output
+    - name: kp version
+      debug:
+        msg: '{{ kp_test_output.stdout }}'
