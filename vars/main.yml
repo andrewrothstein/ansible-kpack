@@ -3,7 +3,7 @@
 kpack_os: '{{ ansible_system | lower }}'
 kpack_arch: '{{ kpack_arch_map[ansible_architecture] }}'
 kpack_platform: '{{ kpack_os }}-{{ kpack_arch }}'
-kpack_checksum: '{{ kpack_checksums[kpack_platform] }}'
+kpack_checksum: '{{ kpack_checksums[kpack_ver][kpack_platform] }}'
 kpack_exe: kp-{{ kpack_platform }}-{{ kpack_ver }}{{ kpack_dotexe | default("") }}
 kpack_url: '{{ kpack_mirror }}/v{{ kpack_ver }}/{{ kpack_exe }}'
 kpack_install_exe: '{{ kpack_install_dir }}/{{ kpack_exe }}'
