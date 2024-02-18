@@ -9,5 +9,5 @@
       changed_when: false
       register: kp_test_output
     - name: Output of 'kp version'
-      debug:
+      ansible.builtin.debug:
         msg: '{{ kp_test_output.stdout }}'
