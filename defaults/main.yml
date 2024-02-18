@@ -1,6 +1,6 @@
 ---
 # defaults file for kpack
-kpack_ver: 0.11.0
+kpack_ver: 0.12.1
 kpack_install_dir: /usr/local/bin
 kpack_arch_map:
   aarch64: arm64
@@ -19,3 +19,14 @@ kpack_checksums:
     linux-arm64: sha256:710f072220005704d8cb4fb04bc9c229b14e30d30bbab3ae439a39056412b94d
     # https://github.com/buildpacks-community/kpack-cli/releases/download/v0.11.0/kp-windows-amd64-0.11.0.exe
     windows-amd64: sha256:1df6c72ae0a212aac0ed6c0a2a0c01d8ee1cc42c3af4e24ca4951ef653439e9c
+  '0.12.1':
+    # https://github.com/buildpacks-community/kpack-cli/releases/download/v0.12.1/kp-darwin-amd64-0.12.1
+    darwin-amd64: sha256:781691da62f5e12b32cec62b952554d9602bcef169bb2c531a684c77fb940908
+    # https://github.com/buildpacks-community/kpack-cli/releases/download/v0.12.1/kp-darwin-arm64-0.12.1
+    darwin-arm64: sha256:87370a7ea0311db8fb8bcd17a7bdfc1af94b6ec2d90f48d103807a557e4d653e
+    # https://github.com/buildpacks-community/kpack-cli/releases/download/v0.12.1/kp-linux-amd64-0.12.1
+    linux-amd64: sha256:7f82ac81c5b792334ee5e8ef13f65a6e88597afe852277bafe4ce693f2a14173
+    # https://github.com/buildpacks-community/kpack-cli/releases/download/v0.12.1/kp-linux-arm64-0.12.1
+    linux-arm64: sha256:25d0fbd940258736bbea498a779d8bf72aaac40ed8617ebf3a8300a372796d66
+    # https://github.com/buildpacks-community/kpack-cli/releases/download/v0.12.1/kp-windows-amd64-0.12.1.exe
+    windows-amd64: sha256:f21f7e3f4853c4d2908aac090fdb510c8dd16547da1a1c8170f69c64cae9b985

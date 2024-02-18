@@ -1,10 +1,13 @@
 ---
-- hosts: all
+- name: Testing andrewrothstein.kpack
+  hosts: all
   roles:
     - role: '{{ playbook_dir }}'
   tasks:
-    - command: kp version
+    - name: Executing 'kp version'
+      ansible.builtin.command: kp version
+      changed_when: false
       register: kp_test_output
-    - name: kp version
+    - name: Output of 'kp version'
       debug:
         msg: '{{ kp_test_output.stdout }}'
