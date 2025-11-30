@@ -41,3 +41,14 @@ kpack_checksums:
     linux-arm64: sha256:a4d5cd0ec8187945c098b450a617ac86bb6aa062f517ebb6c1b66f1d8d7e9bc2
     # https://github.com/buildpacks-community/kpack-cli/releases/download/v0.13.0/kp-windows-amd64-0.13.0.exe
     windows-amd64: sha256:f6835bccc5e8ad0558c31d3416471dc93ddc74dace8c688f343e047b61bfe222
+  '0.13.1':
+    # https://github.com/buildpacks-community/kpack-cli/releases/download/v0.13.1/kp-darwin-amd64-0.13.1
+    darwin-amd64: sha256:87d14771a07319c48a73c022a12e385f59ba515e02c7d859ef0c71fc002ba52e
+    # https://github.com/buildpacks-community/kpack-cli/releases/download/v0.13.1/kp-darwin-arm64-0.13.1
+    darwin-arm64: sha256:ed352dafffcbf60c1001b65585fe589b987b9146c1f93bafe12d2aaae20e8470
+    # https://github.com/buildpacks-community/kpack-cli/releases/download/v0.13.1/kp-linux-amd64-0.13.1
+    linux-amd64: sha256:c5b8a675f58489e77bb75c340c425568930ad694906dc3657abac566b06b0011
+    # https://github.com/buildpacks-community/kpack-cli/releases/download/v0.13.1/kp-linux-arm64-0.13.1
+    linux-arm64: sha256:21ebaa7aadbde560e6b63314306e9c90a63bd1eca9d89da1c86491aecb0a0999
+    # https://github.com/buildpacks-community/kpack-cli/releases/download/v0.13.1/kp-windows-amd64-0.13.1.exe
+    windows-amd64: sha256:07964d1afee292639c06a49424b1ee9f581cca919edd57956b715c56f8a34c83

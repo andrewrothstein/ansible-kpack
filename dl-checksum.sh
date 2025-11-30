@@ -32,4 +32,13 @@ dl_ver ()
     dl $ver windows amd64 .exe
 }
 
-dl_ver ${1:-0.13.0}
+dl_ver 0.13.1
+#dl_ver 0.13.2
+#dl_ver 0.13.3
+#dl_ver 0.13.4
+#dl_ver 0.14.0
+#dl_ver 0.14.1
+#dl_ver 0.15.0
+#dl_ver 0.16.0
+#dl_ver 0.16.1
+#dl_ver ${1:-0.17.0}
