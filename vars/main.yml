@@ -1,7 +1,7 @@
 ---
 # vars file for kpack
-kpack_os: '{{ ansible_system | lower }}'
-kpack_arch: '{{ kpack_arch_map[ansible_architecture] }}'
+kpack_os: '{{ ansible_facts["system"] | lower }}'
+kpack_arch: '{{ kpack_arch_map[ansible_facts["architecture"]] }}'
 kpack_platform: '{{ kpack_os }}-{{ kpack_arch }}'
 kpack_checksum: '{{ kpack_checksums[kpack_ver][kpack_platform] }}'
 kpack_exe: kp-{{ kpack_platform }}-{{ kpack_ver }}{{ kpack_dotexe | default("") }}
