@@ -1,6 +1,6 @@
 ---
 # defaults file for kpack
-kpack_ver: 0.13.0
+kpack_ver: 0.13.1
 kpack_install_dir: /usr/local/bin
 kpack_arch_map:
   aarch64: arm64
